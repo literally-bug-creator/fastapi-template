@@ -42,8 +42,6 @@ Welcome to the FastAPI Template project! This repository provides a simple yet p
 
 4. Activate the virtual environment:
 
-    On Linux/macOS:
-
     ```bash
     source .venv/bin/activate
     ```
