@@ -19,7 +19,7 @@ Welcome to the FastAPI Template project! This repository provides a simple yet p
 1. Clone the repository:
 
     ```bash
-    git clone https://github.com/yourusername/fastapi-api-template.git
+    git clone https://github.com/literally-bug-creator/fastapi-template.git
     cd fastapi-api-template
     ```
 
