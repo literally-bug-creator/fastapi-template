@@ -20,7 +20,10 @@ Welcome to the FastAPI Template project! This repository provides a simple yet p
 
     ```bash
     git clone https://github.com/literally-bug-creator/fastapi-template.git
-    cd fastapi-api-template
+    ```
+
+    ```bash
+    cd fastapi-template
     ```
 
 2. Install the dependencies using `uv`:
