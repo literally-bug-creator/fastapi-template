@@ -30,5 +30,5 @@ class TestSectionService:
         self,
         params: params.Delete,
         body: bodies.Delete
-    ) -> responses.Delete:
+    ) -> None:
         ...

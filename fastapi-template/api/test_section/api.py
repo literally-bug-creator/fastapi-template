@@ -41,7 +41,7 @@ async def read(
 
 @router.patch(
     path=Path.UPDATE,
-    status_code=status.HTTP,
+    status_code=status.HTTP_200_OK,
     responses={
         status.HTTP_200_OK: {"model": responses.Update},
     },
@@ -59,7 +59,7 @@ async def update(
     path=Path.DELETE,
     status_code=status.HTTP_204_NO_CONTENT,
     responses={
-        status.HTTP_204_NO_CONTENT: {"model": responses.Delete},
+        status.HTTP_204_NO_CONTENT: {},
     },
     description="DELETE endpoint",
 )
